@@ -1,7 +1,7 @@
 # The Invisible Foundation
 ## How Critical Open Source Infrastructure Became the World's Most Undermanaged Risk — and What to Do About It
 
-*[Author name placeholder]*  
+*Holger Schmidt*  
 *April 2026*
 
 ---
@@ -458,3 +458,7 @@ The following criteria represent a starting point for the certification framewor
 ---
 
 *This paper was written in March 2026. Data cited reflects publicly available information as of that date. The author has taken care to source claims accurately; corrections and additions are welcomed.*
+
+---
+
+[Impressum](./impressum.md) · [Datenschutz](./datenschutz.md) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · contact@criticalsoftwareriskregister.com
