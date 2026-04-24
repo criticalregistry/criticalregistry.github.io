@@ -1,0 +1,37 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" width="500" height="500">
+  <defs>
+    <clipPath id="circle">
+      <circle cx="250" cy="250" r="250"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="500" height="500" fill="#0A192F"/>
+
+  <!-- Subtle grid -->
+  <g opacity="0.15" clip-path="url(#circle)">
+    <line x1="0" y1="100" x2="500" y2="100" stroke="#2a9d8f" stroke-width="0.5"/>
+    <line x1="0" y1="200" x2="500" y2="200" stroke="#2a9d8f" stroke-width="0.5"/>
+    <line x1="0" y1="300" x2="500" y2="300" stroke="#2a9d8f" stroke-width="0.5"/>
+    <line x1="0" y1="400" x2="500" y2="400" stroke="#2a9d8f" stroke-width="0.5"/>
+    <line x1="100" y1="0" x2="100" y2="500" stroke="#2a9d8f" stroke-width="0.5"/>
+    <line x1="200" y1="0" x2="200" y2="500" stroke="#2a9d8f" stroke-width="0.5"/>
+    <line x1="300" y1="0" x2="300" y2="500" stroke="#2a9d8f" stroke-width="0.5"/>
+    <line x1="400" y1="0" x2="400" y2="500" stroke="#2a9d8f" stroke-width="0.5"/>
+  </g>
+
+  <!-- Mark: stylised CR / registry bars -->
+  <!-- Three vertical bars representing risk distribution -->
+  <rect x="128" y="165" width="52" height="170" rx="4" fill="#2a9d8f" opacity="0.9"/>
+  <rect x="224" y="130" width="52" height="240" rx="4" fill="#FFFFFF" opacity="0.95"/>
+  <rect x="320" y="190" width="52" height="145" rx="4" fill="#2a9d8f" opacity="0.7"/>
+
+  <!-- Red cap on middle bar — the risk signal -->
+  <rect x="224" y="118" width="52" height="16" rx="3" fill="#e63946"/>
+
+  <!-- Bottom baseline -->
+  <rect x="110" y="340" width="280" height="3" rx="1.5" fill="#2a9d8f" opacity="0.5"/>
+
+  <!-- CR monogram — bottom right, small -->
+  <text x="348" y="432" font-family="'Montserrat', sans-serif" font-weight="700" font-size="28" fill="#2a9d8f" opacity="0.6" letter-spacing="1">CR</text>
+</svg>
