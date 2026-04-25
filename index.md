@@ -4,7 +4,7 @@
 *Holger Schmidt*  
 *April 25, 2026*
 
-*This paper is written primarily for the organisations whose products depend on open source infrastructure: manufacturers, insurers, investors, and regulators. It argues that they carry an unpriced liability and that addressing it is in their commercial interest. Open source maintainers will also find it here. The argument directed at you is in Section 5.2.*
+*This paper is written primarily for the organisations whose products depend on open source infrastructure: manufacturers, insurers, investors, and regulators. It argues that they carry an unpriced liability and that addressing it is in their commercial interest. Open source maintainers will also find this paper relevant. The argument directed at you is in Section 5.2.*
 
 ---
 
