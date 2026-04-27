@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: "The Invisible Foundation: How Critical Open Source Infrastructure Became the World's Most Undermanaged Risk"
+message: "If you cite this whitepaper, please use the following metadata."
+authors:
+  - family-names: Schmidt
+    given-names: Holger
+license: CC-BY-4.0
+url: "https://criticalsoftwareriskregister.com"
+repository-code: "https://github.com/criticalregistry/criticalregistry.github.io"
+date-released: 2026-04-01
