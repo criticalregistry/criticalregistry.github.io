@@ -2,7 +2,7 @@
 ## How Critical Open Source Infrastructure Became the World's Most Undermanaged Risk, and What to Do About It
 
 *Holger Schmidt*  
-*April 2026*
+*Last updated: April 2026*
 
 *This paper is written primarily for the organisations whose products depend on open source infrastructure: manufacturers, insurers, investors, and regulators. It argues that they carry an unpriced liability and that addressing it is in their commercial interest. Open source maintainers will also find this paper relevant. The argument directed at you is in Section 5.2.*
 
@@ -82,7 +82,7 @@ The technical sophistication of the attack was real. The social engineering soph
 
 The pattern across these incidents is consistent and worsening: small teams, inadequate support, increasing blast radius with each cycle. Heartbleed cost hundreds of millions. Log4Shell cost billions. XZ Utils nearly compromised a foundational authentication layer across internet infrastructure. The 2025 cohort, including libxml2, Ingress NGINX, and others receiving less coverage, demonstrates that the pace is accelerating, not slowing.
 
-**The AI acceleration problem** has crossed a threshold in early 2026 that makes previous projections look conservative. Daniel Stenberg, curl's primary maintainer, reported in April 2026 (daniel.haxx.se/blog/2026/04/22/high-quality-chaos/) that security report submission rates had more than doubled year-over-year and projected approximately fifty curl CVEs in 2026 against a historical baseline of roughly sixteen per year. He confirmed the same trend across dozens of other major projects. That data predates the Mythos findings by days.
+**The AI acceleration problem** has crossed a threshold in early 2026 that makes previous projections look conservative. Daniel Stenberg, curl's primary maintainer, [reported in April 2026](https://daniel.haxx.se/blog/2026/04/22/high-quality-chaos/) that security report submission rates had more than doubled year-over-year and projected approximately fifty curl CVEs in 2026 against a historical baseline of roughly sixteen per year. He confirmed the same trend across dozens of other major projects. That data predates the Mythos findings by days.
 
 In April 2026, Anthropic and Mozilla jointly disclosed that Anthropic's Claude Mythos Preview, a frontier model currently restricted to a small group of vetted organisations, had identified 271 vulnerabilities in Firefox in a single evaluation. For context: Mozilla patched approximately 73 high-severity Firefox vulnerabilities in all of 2025. The preceding generation of the same model found 22 vulnerabilities in a two-week engagement with the same codebase. Mythos found 271. Mozilla's CTO described his team's reaction as "vertigo." Palo Alto Networks, another Mythos preview participant, reported that the model accomplished the equivalent of a year's worth of penetration testing in under three weeks.
 
@@ -321,7 +321,7 @@ That entity does not yet exist. It needs to.
 
 ---
 
-*The author is building this. The dependency map is in development at criticalsoftwareriskregister.com. If you work in cyber insurance underwriting, OT security, or open source infrastructure, and the argument in this paper resonates, the conversation starts at contact@criticalsoftwareriskregister.com.*
+*The author is building this. The dependency map is in development at criticalsoftwareriskregister.com; the registry data is published at [github.com/criticalregistry/registry](https://github.com/criticalregistry/registry). If you work in cyber insurance underwriting, OT security, or open source infrastructure, and the argument in this paper resonates, the conversation starts at contact@criticalsoftwareriskregister.com.*
 
 ---
 
@@ -432,6 +432,7 @@ The XZ Utils incident represents a qualitative shift in the threat model. Previo
 | Core Infrastructure Initiative | 2014 (now OpenSSF) | Member fees | Direct project funding | Reactive; absorbed into OpenSSF |
 | EU CRA | 2024 | Regulation | Compliance requirements | No OT applicability in highest-risk sectors; compliance ≠ sustainability |
 | CISA (US) | N/A | Government | Vulnerability advisories; SBOM guidance | Advisory only; no funding mechanism; no intervention capability |
+| Open Source Pledge | 2024 | Voluntary corporate contributions ($2,000/FTE/year) | Direct maintainer funding | Voluntary; no accountability mechanism; does not address dependency mapping or OT-specific risk |
 
 ---
 
