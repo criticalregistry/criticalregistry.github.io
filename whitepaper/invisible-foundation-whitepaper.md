@@ -2,6 +2,7 @@
 ## How Critical Open Source Infrastructure Became the World's Most Undermanaged Risk, and What to Do About It
 
 *Holger Schmidt*  
+*April 2026*  
 *Last updated: April 2026*
 
 *This paper is written primarily for the organisations whose products depend on open source infrastructure: manufacturers, insurers, investors, and regulators. It argues that they carry an unpriced liability and that addressing it is in their commercial interest. Open source maintainers will also find this paper relevant. The argument directed at you is in Section 5.2.*
@@ -91,6 +92,8 @@ Both organisations have framed this as a net positive for defenders: if AI can f
 It does not apply uniformly to operational technology. An automotive OEM cannot patch its deployed fleet in days, though OTA update infrastructure is compressing that timeline where it exists and is mature. A railway signalling system certified to SIL4 cannot receive a software update without recertification: a process measured in weeks to months depending on the scope of change, not days. A medical device manufacturer cannot push a patch without an FDA submission process regardless of how quickly the fix was generated.
 
 But the deeper problem is not patch generation speed. It is the maintainer bottleneck. AI can suggest a fix. It cannot merge it, validate it against decades of edge cases, coordinate the CVE disclosure process, notify downstream packagers, and manage the release. That work still flows through one person. A maintainer facing AI-generated vulnerability reports at ten times the historical rate, with AI-generated fix suggestions requiring expert review for each one, is not relieved of burden. The queue has simply changed shape. And if that maintainer stops, whether from burnout, illness, or loss of their commercial arrangement, no AI system holds commit rights, project authority, or the institutional knowledge needed to continue. The availability risk is orthogonal to patch generation speed.
+
+The infrastructure built to manage this process is already breaking. Curl ended its bug bounty programme in January 2026 after AI-generated reports made triage unworkable. Google stopped accepting AI-generated reports in March. HackerOne paused the Internet Bug Bounty the same month. Node.js suspended rewards the week after. Nextcloud shut its programme down in April. These programmes closed for noise. What replaced the noise were valid findings from researchers using AI tools, arriving at the same triage queues, patch cycles, and CVE pipelines that were already behind. Attackers running the same tooling have none of that overhead. They do not file reports. They find what is valid and use it. The defender's coordination tax is the attacker's advantage. Right now that tax is substantial and growing.
 
 The asymmetry is now structural and quantified: finding vulnerabilities is cheap and getting cheaper; fixing them in OT environments still requires expert human time, deep project knowledge, and regulatory approval processes measured in weeks to years depending on the system and regulatory regime. Under-resourced maintainers who were already struggling with doubled report rates now face the prospect of AI-generated vulnerability queues that no small team can clear. This will drive the next generation of maintainer exits.
 
