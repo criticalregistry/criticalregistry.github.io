@@ -1,3 +1,17 @@
+title: Critical Software Risk Register
+description: A public dependency risk map for critically under-resourced open source infrastructure.
+url: "https://criticalsoftwareriskregister.com"
+baseurl: ""
+
 plugins:
   - jekyll-sitemap
-  
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
