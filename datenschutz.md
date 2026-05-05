@@ -1,3 +1,8 @@
+---
+layout: default
+title: Datenschutz
+---
+
 # Datenschutzerklärung
 
 Diese Datenschutzerklärung informiert Sie gemäß Art. 13 DSGVO darüber, welche personenbezogenen Daten beim Besuch dieser Website erhoben und verarbeitet werden.

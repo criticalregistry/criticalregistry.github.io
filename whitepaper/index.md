@@ -1,3 +1,8 @@
+---
+layout: default
+title: The Invisible Foundation
+---
+
 # The Invisible Foundation
 ## How Critical Open Source Infrastructure Became the World's Most Undermanaged Risk, and What to Do About It
 
