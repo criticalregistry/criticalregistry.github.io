@@ -71,6 +71,4 @@ Four gaps remain unfilled by any of the above.
 
 ---
 
-*Last updated: 2026-05-14 · [Whitepaper](https://criticalsoftwareriskregister.com/whitepaper/) · [Registry](https://github.com/criticalregistry/registry) · [Methodology](https://criticalsoftwareriskregister.com/methodology/)*
-
-
+*Last updated: 2026-05-14 · [Whitepaper](https://criticalsoftwareriskregister.com/whitepaper) · [Registry](https://github.com/criticalregistry/registry) · [Methodology](https://criticalsoftwareriskregister.com/methodology)*
