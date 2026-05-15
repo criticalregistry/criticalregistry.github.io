@@ -3,7 +3,7 @@ layout: default
 title: Landscape
 ---
 
-<!-- Last updated: 2026-05-14 -->
+<!-- Last updated: 2026-05-15 -->
 
 # Landscape
 
@@ -29,6 +29,14 @@ The [Open Source Security Foundation](https://openssf.org) produces frameworks, 
 
 ---
 
+## ecosyste.ms
+
+[ecosyste.ms](https://ecosyste.ms) is an open data infrastructure project indexing over 14 million packages across nearly 2,000 sources, including 16 major package managers. It is the most comprehensive publicly available dataset of package registry dependency relationships, covering npm, PyPI, RubyGems, Maven, cargo, and others. It recently added commercial licensing.
+
+Its coverage boundary is the same as the methodology it supports: package registries. C libraries distributed through system package managers, static linking, and vendoring are outside its scope by design. It is the ceiling of what registry-based analysis can see. The CSRR registry uses it as one input into its algorithmic baseline layer, then builds beyond it.
+
+---
+
 ## Civil Infrastructure Platform
 
 The [Civil Infrastructure Platform](https://cip-project.org) is a Linux Foundation project maintaining a long-term-supported Linux kernel and core packages for civil infrastructure and industrial automation. Its members include Siemens, Hitachi, and Toshiba. Domains in scope include transportation, power generation, industrial control, and healthcare.
@@ -37,9 +45,9 @@ CIP and CSRR address different questions. CIP asks: how do we maintain a Linux p
 
 ---
 
-## German Sovereign Tech Fund
+## German Sovereign Tech Agency
 
-The [Sovereign Tech Fund](https://www.sovereigntechfund.de) provides direct government grants to critical open source projects. Its model is correct in principle: sustained, multi-year funding for specific projects based on their dependency footprint. The Samba funding (€688,000 over 18 months, administered by SerNet) is a representative example.
+The [Sovereign Tech Agency](https://www.sovereign.tech) administers the Sovereign Tech Fund, a German government programme providing direct grants to critical open source projects. Its model is correct in principle: sustained, multi-year funding for specific projects based on their dependency footprint. The Samba funding (€688,000 over 18 months, administered by SerNet) is a representative example.
 
 The limitations are scale (annual budgets of €13 to €22 million against a global problem), geography (Germany, with some EU reach), and the absence of a commercial data product, a certification framework, or a manufacturer-facing risk assessment.
 
@@ -71,4 +79,6 @@ Four gaps remain unfilled by any of the above.
 
 ---
 
-*Last updated: 2026-05-14 · [Whitepaper](https://criticalsoftwareriskregister.com/whitepaper) · [Registry](https://github.com/criticalregistry/registry) · [Methodology](https://criticalsoftwareriskregister.com/methodology)*
+*Last updated: 2026-05-15 · [Whitepaper](https://criticalsoftwareriskregister.com/whitepaper/) · <a href="https://github.com/criticalregistry/registry" target="_blank" rel="noopener">Registry</a> · [Methodology](https://criticalsoftwareriskregister.com/methodology)*
+
+

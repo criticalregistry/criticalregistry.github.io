@@ -331,7 +331,7 @@ That entity does not yet exist. It needs to.
 
 ---
 
-*The author is building this. The dependency map is in development at criticalsoftwareriskregister.com; the registry data is published at [github.com/criticalregistry/registry](https://github.com/criticalregistry/registry). If you work in cyber insurance underwriting, OT security, or open source infrastructure, and the argument in this paper resonates, the conversation starts at contact@criticalsoftwareriskregister.com.*
+*The author is building this. The dependency map is in development at criticalsoftwareriskregister.com; the registry data is published at <a href="https://github.com/criticalregistry/registry" target="_blank" rel="noopener">github.com/criticalregistry/registry</a>. If you work in cyber insurance underwriting, OT security, or open source infrastructure, and the argument in this paper resonates, the conversation starts at contact@criticalsoftwareriskregister.com.*
 
 ---
 
