@@ -502,4 +502,4 @@ The following criteria represent a starting point for the certification framewor
 
 ---
 
-contact@criticalsoftwareriskregister.com
+*Contact: <contact@criticalsoftwareriskregister.com>*
