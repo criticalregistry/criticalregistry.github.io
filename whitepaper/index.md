@@ -502,4 +502,4 @@ The following criteria represent a starting point for the certification framewor
 
 ---
 
-[Impressum](./impressum.md) · [Datenschutz](./datenschutz.md) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · contact@criticalsoftwareriskregister.com
+[Impressum](./impressum) · [Datenschutz](./datenschutz) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · contact@criticalsoftwareriskregister.com
